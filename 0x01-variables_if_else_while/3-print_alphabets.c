@@ -6,7 +6,6 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-
 {
 	int c;
 	int i;
@@ -21,4 +20,6 @@ int main(void)
 	{
 		putchar((c + i) - 32);
 	}
+	putchar(10);
+	return (0);
 }
